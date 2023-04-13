@@ -16,7 +16,7 @@ Calculator Demon-Tormentor (EN)
 
 #panel {
 	background-color: #007F7F;
-	background: url('../img/panel-la.png');
+	background: url('../../files/img/panel-la.png');
 	background-repeat: no-repeat;
 	height: 114px;
 	width: 953px;
@@ -26,7 +26,7 @@ Calculator Demon-Tormentor (EN)
 }
 
 #calculator {
-	background-image: url('../img/masteries-la.png');
+	background-image: url('../../files/img/masteries-la.png');
 	background-repeat: no-repeat;
 	width: 953px;
 	height: 1015px;
@@ -152,7 +152,7 @@ button:active {
     border: 1px solid #330505;
     border-radius: 6px;
     z-index: 1;
-    background-image: url('../img/button-icons-la.png');
+    background-image: url('../../files/img/button-icons-la.png');
 	margin-left: 59px;
 }
 

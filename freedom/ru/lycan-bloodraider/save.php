@@ -1,7 +1,7 @@
 <?php 
 $LgPath=$_POST['img_val'];
 
-$name = 'lycan-bloodraider-skill-tree-created-with-www-Fwcalc.com-com-'.date('Y-m-d-H-i-s').'.png';
+$name = 'lycan-bloodraider-skill-tree-created-with-www-Calc.FW-Rebirth-com-'.date('Y-m-d-H-i-s').'.png';
 
         header("Content-Transfer-Encoding: binary");
         header("Content-Type: image/png");

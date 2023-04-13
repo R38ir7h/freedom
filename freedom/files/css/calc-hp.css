@@ -16,7 +16,7 @@ Calculator Human-Priest (EN)
 
 #panel {
 	background-color: #007F7F;
-	background: url('../img/panel-hp.png');
+	background: url('../../files/img/panel-hp.png');
 	background-repeat: no-repeat;
 	height: 114px;
 	width: 953px;
@@ -26,7 +26,7 @@ Calculator Human-Priest (EN)
 }
 
 #calculator {
-	background-image: url('../img/masteries-hp.png');
+	background-image: url('../../files/img/masteries-hp.png');
 	background-repeat: no-repeat;
 	width: 953px;
 	height: 1015px;
@@ -145,7 +145,7 @@ button:active {
     border: 1px solid #330505;
     border-radius: 6px;
     z-index: 1;
-    background-image: url('../img/button-icons-hp.png');
+    background-image: url('../../files/img/button-icons-hp.png');
 	margin-left: 59px;
 }
 

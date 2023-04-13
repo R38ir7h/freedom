@@ -7,7 +7,7 @@ var data = [
 			ranks: 5,
 			ranksnw: 2,
 			desc: "Количество ОЗ, восполняемое навыком «Врачевание», увеличивается на <span class='tooltip-value'>#</span> + <span class='tooltip-value'>#%</span> от максимального количества ОМ жреца.\n\n<b>Возможно увеличение уровня таланта с помощью рун.</b><span class='tooltip-value'>#</span>",
-			rankInfo: [100, 200, 300, 400, 500],
+			rankInfo: [50, 100, 150, 200, 250],
 			rankInfo2: [2, 3, 4, 5, 6],
 			rankInfo3: ['', '', '', '', '<div class="runelvl">\n\n\n<br>Уровень: 6/5 (требуется руна)\n\n<br><br>Количество ОЗ, восполняемое навыком «Врачевание», увеличивается на <span class="tooltip-value">300</span> + <span class="tooltip-value">7%</span> от максимального количества ОМ жреца.</div>'],
 		},
@@ -43,7 +43,7 @@ var data = [
 			ranks: 4,
 			desc: "Увеличивает максимальное количество ОМ на <span class='tooltip-value'>#%</span> и дополнительно на <span class='tooltip-value'>#</span> ед.",
 			rankInfo: [1, 2, 3, 4],
-			rankInfo2: [200, 400, 600, 800],
+			rankInfo2: [50, 100, 150, 200],
 		},
 		{
 			index: 9,
@@ -62,7 +62,7 @@ var data = [
 			rankInfo: ['<span class="req">Требуемый уровень персонажа: 30</span>\n\n', '<span class="req">Требуемый уровень персонажа: 45</span>\n\n', '<span class="req">Требуемый уровень персонажа: 60</span>\n\n', '<span class="req">Требуемый уровень персонажа: 75</span>\n\n'],
 			rankInfo2: [424, 689, 949, 1204],
 			rankInfo3: ['719-794', '1072-1184', '1428-1577', '1787-1973'],
-			rankInfo4: [5000, 7000, 9000, 11000],
+			rankInfo4: [2000, 3000, 4000, 5000],
 			rankInfo5: ['', '', '', '<div class="runelvl">\n<br>Уровень: 5/4 (требуется руна)\n\n<br><br><span class="left"><span class="tooltip-value">1456</span> ОМ</span><span class="right">Чтение: 4 сек.</span>\n<br><span class="left">Лечение</span><span class="right">Время перезарядки: 8 сек.</span>\n<br><span class="left">Благословение</span><span class="right">Расстояние атаки – 18 м.</span>\n\n<br><br>В течение 4 сек. восстанавливает <span class="tooltip-value">2148-2372</span> ОЗ цели. При последнем исцелении восстанавливается в два раза больше ОЗ. Макс. здоровье цели увеличивается на <span class="tooltip-value">6000</span> ед. на 10 сек. С вероятностью 4% количество восполняемых ОЗ может удвоится.</div>'],
 		},
 		{
@@ -306,7 +306,7 @@ var data = [
 			name: "Священный контроль",
 			ranks: 5,
 			desc: "Мастерство Света увеличивается на <span class='tooltip-value'>#</span>.",
-			rankInfo: [15, 30, 45, 60, 75],
+			rankInfo: [10, 20, 30, 40, 50],
 		},
 		{
 			index: 9,
@@ -354,7 +354,7 @@ var data = [
 			ranks: 3,
 			desc: "Усиливает сопротивление жреца Свету на <span class='tooltip-value'>#</span> ед. и усиливает защиту на <span class='tooltip-value'>#</span> ед.",
 			rankInfo: [15, 30, 45],
-			rankInfo2: [120, 240, 360],
+			rankInfo2: [10, 15, 20],
 		},
 		{
 			index: 17,
@@ -371,7 +371,7 @@ var data = [
 			name: "Клеймо",
 			ranks: 2,
 			desc: "Увеличивает базовый урон навыка «Карающий удар» на <span class='tooltip-value'>#%</span>. С вероятностью <span class='tooltip-value'>#%</span> навык «Карающий удар» может оставить на теле врага клеймо, которое уменьшает его макс ОМ на 5% каждые 4 сек. Длительность - 20 сек.",
-			rankInfo: [20, 40],
+			rankInfo: [10, 20],
 			rankInfo2: [25, 50],
 			parent: 5,
 		},
@@ -414,6 +414,7 @@ var data = [
 			name: "Вспышка",
 			ranks: 4,
 			desc: "Увеличивает меткость и уклонение на <span class='tooltip-value'>#</span>.",
+			rankInfo: [3, 6, 9, 12],
 		},
 		{
 			index: 29,
@@ -432,7 +433,7 @@ var data = [
 			desc: "<span class='tooltip-value'>#</span><span class='left'><span class='tooltip-value'>#</span> ОМ</span><span class='right'>Чтение: 3 сек.</span>\n<span class='left'>Урон от Света</span><span class='right'>Время перезарядки: 15 сек.</span>\n<span class='left'>Атака единичной цели</span><span class='right'>Расстояние атаки – 18 м.</span>\n\nТройной урон. Каждый из ударов навыка наносит цели 80% базового урона + <span class='tooltip-value'>#</span> ед. дополнительного урона. С вероятностью 5%/10%/15% цель, находящаяся под действием «Клейма», может быть оглушена на 3 сек.\n\n<b>Возможно увеличение уровня таланта с помощью рун.</b><span class='tooltip-value'>#</span>",
 			rankInfo: ['<span class="req">Требуемый уровень персонажа: 55</span>\n\n', '<span class="req">Требуемый уровень персонажа: 70</span>\n\n'],
 			rankInfo2: [633, 789],
-			rankInfo3: [1654.4, 2536.6],
+			rankInfo3: [1504, 2306],
 			rankInfo4: ['', '<div class="runelvl">\n<br>Уровень: 3/2 (требуется руна)\n\n<br><br><span class="left"><span class="tooltip-value">951</span> ОМ</span><span class="right">Чтение: 3 сек.</span>\n<br><span class="left">Урон от Света</span><span class="right">Время перезарядки: 15 сек.</span>\n<br><span class="left">Атака единичной цели</span><span class="right">Расстояние атаки – 18 м.</span>\n\n<br><br>Тройной урон. Каждый из ударов навыка наносит цели 80% базового урона + <span class="tooltip-value">3052</span> ед. дополнительного урона. С вероятностью 5%/10%/15% цель, находящаяся под действием «Клейма», может быть оглушена на 3 сек.</div>'],
 		},
 		{
@@ -509,7 +510,7 @@ var data = [
 			index: 46,
 			name: "Праведная кара",
 			ranks: 1,
-			desc: "<span class='tooltip-value'>#</span><span class='left'>913 ОМ</span><span class='right'>Чтение: 3 сек.</span>\n<span class='left'>Свет</span><span class='right'>Время перезарядки: 60 сек.</span>\n<span class='left'>Массовое проклятие</span><span class='right'>Расстояние атаки – 18 м.</span>\n\nВ радиусе 10 метров снимает с целей (до 20 целей) эффекты, атаки и поддержки.",
+			desc: "<span class='tooltip-value'>#</span><span class='left'>913 ОМ</span><span class='right'>Чтение: 3 сек.</span>\n<span class='left'>Свет</span><span class='right'>Время перезарядки: 60 сек.</span>\n<span class='left'>Массовое проклятие</span><span class='right'>Расстояние атаки – 18 м.</span>\n\nВ радиусе 10 метров снимает с целей (до 20 целей) эффекты, увеличивающие силу атаки.",
 			rankInfo: ['<span class="req">Требуемый уровень персонажа: 75</span>\n\n'],
 		},
 		{
@@ -591,11 +592,11 @@ var data = [
 			name: "Молитва холоду",
 			ranks: 4,
 			ranksnw: 1,
-			desc: "<span class='tooltip-value'>#</span><span class='left'><span class='tooltip-value'>#</span> ОМ</span><span class='right'>Чтение: 1 сек.</span>\n<span class='left'>Атака</span><span class='right'>Время перезарядки: 60 сек.</span>\n<span class='left'>Личное благословение</span><span class='right'>Расстояние атаки – нет</span>\n\nУвеличивает базовый урон навыков «Оледенение», «Тайное проклятие», «Ледяной удар» и «Ледяное царство» на 25%. Сокращает время перезарядки на 75%. Время действия - <span class='tooltip-value'>#</span> сек. Во время действия данного эффекта навыки Воды не могут быть прерваны.\n\n<b>Возможно увеличение уровня таланта с помощью рун.</b><span class='tooltip-value'>#</span>",
+			desc: "<span class='tooltip-value'>#</span><span class='left'><span class='tooltip-value'>#</span> ОМ</span><span class='right'>Чтение: 1 сек.</span>\n<span class='left'>Атака</span><span class='right'>Время перезарядки: 60 сек.</span>\n<span class='left'>Личное благословение</span><span class='right'>Расстояние атаки – нет</span>\n\nУвеличивает базовый урон навыков «Оледенение», «Тайное проклятие», «Ледяной удар» и «Ледяное царство» на 50%. Сокращает время перезарядки на 75%. Время действия - <span class='tooltip-value'>#</span> сек. Во время действия данного эффекта навыки Воды не могут быть прерваны.\n\n<b>Возможно увеличение уровня таланта с помощью рун.</b><span class='tooltip-value'>#</span>",
 			rankInfo: ['<span class="req">Требуемый уровень персонажа: 30</span>\n\n', '<span class="req">Требуемый уровень персонажа: 45</span>\n\n', '<span class="req">Требуемый уровень персонажа: 60</span>\n\n', '<span class="req">Требуемый уровень персонажа: 75</span>\n\n'],
 			rankInfo2: [276, 394, 513, 634],
 			rankInfo3: [12, 15, 18, 21],
-			rankInfo4: ['', '', '', '<div class="runelvl">\n<br>Уровень: 5/4 (требуется руна)\n\n<br><br><span class="left"><span class="tooltip-value">755</span> ОМ</span><span class="right">Чтение: 1 сек.</span>\n<br><span class="left">Атака</span><span class="right">Время перезарядки: 60 сек.</span>\n<br><span class="left">Личное благословение</span><span class="right">Расстояние атаки – нет</span>\n\n<br><br>Увеличивает базовый урон навыков «Оледенение», «Тайное проклятие», «Ледяной удар» и «Ледяное царство» на 25%. Сокращает время перезарядки на 75%. Время действия - <span class="tooltip-value">24</span> сек. Во время действия данного эффекта навыки Воды не могут быть прерваны.</div>'],
+			rankInfo4: ['', '', '', '<div class="runelvl">\n<br>Уровень: 5/4 (требуется руна)\n\n<br><br><span class="left"><span class="tooltip-value">755</span> ОМ</span><span class="right">Чтение: 1 сек.</span>\n<br><span class="left">Атака</span><span class="right">Время перезарядки: 60 сек.</span>\n<br><span class="left">Личное благословение</span><span class="right">Расстояние атаки – нет</span>\n\n<br><br>Увеличивает базовый урон навыков «Оледенение», «Тайное проклятие», «Ледяной удар» и «Ледяное царство» на 50%. Сокращает время перезарядки на 75%. Время действия - <span class="tooltip-value">24</span> сек. Во время действия данного эффекта навыки Воды не могут быть прерваны.</div>'],
 		},
 		{
 			index: 11,
@@ -783,7 +784,7 @@ var data = [
 			index: 46,
 			name: "Ледяное царство",
 			ranks: 1,
-			desc: "<span class='tooltip-value'>#</span><span class='left'>845 ОМ</span><span class='right'>Чтение: 2 сек.</span>\n<span class='left'>Урон от Воды</span><span class='right'>Время перезарядки: 15 сек.</span>\n<span class='left'>Массовая атака</span><span class='right'>Расстояние атаки – 18 м.</span>\n\nАтакует противников в радиусе 8 метров от цели. Наносит 125% базового урона и дополнительно 3328 ед. урона. На 10 сек. уменьшает эффективность исцеления цели на 20%, а сопротивление Воде – на 60 ед.",
+			desc: "<span class='tooltip-value'>#</span><span class='left'>845 ОМ</span><span class='right'>Чтение: 2 сек.</span>\n<span class='left'>Урон от Воды</span><span class='right'>Время перезарядки: 15 сек.</span>\n<span class='left'>Массовая атака</span><span class='right'>Расстояние атаки – 18 м.</span>\n\nАтакует противников в радиусе 8 метров от цели. Наносит 100% базового урона и дополнительно 3328 ед. урона. На 10 сек. уменьшает эффективность исцеления цели на 20%, а сопротивление Воде – на 60 ед.",
 			rankInfo: ['<span class="req">Требуемый уровень персонажа: 75</span>\n\n'],
 		},
 		{

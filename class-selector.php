@@ -14,8 +14,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5">Protector</span></td>
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/kindred-vampire/">Vampire</a></span></td>
 				<td width="113"><span class="h5">Warrior</span></td>
-				<td width="135"><span class="h5"><a href="https://fwcalc.com/ascension/kindred-bloodraider/">Blood Raider</a></span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5"><a href="https://fwcalc.com/ascension/kindred-bloodraider/">Blood Raider</a></span></td> 
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/kindred-warden/">Paladins</a></span></td>
 			</tr>
 		</table>
@@ -36,8 +35,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5">Protector</span></td>
 				<td width="113"><span class="h5">Vampire</span></td>
 				<td width="113"><span class="h5">Warrior</span></td>
-				<td width="135"><span class="h5">Blood Raider</span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5">Blood Raider</span></td> 
 				<td width="113"><span class="h5">Paladins</span></td>
 			</tr>
 		</table>
@@ -58,8 +56,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5">Protector</span></td>
 				<td width="113"><span class="h5">Vampire</span></td>
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/human-warrior/">Warrior</a></span></td>
-				<td width="135"><span class="h5">Blood Raider</span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5">Blood Raider</span></td> 
 				<td width="113"><span class="h5">Paladins</span></td>
 			</tr>
 		</table>
@@ -80,8 +77,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5">Protector</span></td>
 				<td width="113"><span class="h5">Vampire</span></td>
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/elf-warrior/">Warrior</a></span></td>
-				<td width="135"><span class="h5">Blood Raider</span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5">Blood Raider</span></td> 
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/elf-warden/">Paladins</a></span></td>
 			</tr>
 		</table>
@@ -102,8 +98,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5"><a href="https://fwcalc.com/ascension/stoneman-protector/">Protector</a></span></td>
 				<td width="113"><span class="h5">Vampire</span></td>
 				<td width="113"><span class="h5">Warrior</span></td>
-				<td width="135"><span class="h5">Blood Raider</span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5">Blood Raider</span></td> 
 				<td width="113"><span class="h5">Paladins</span></td>
 			</tr>
 		</table>
@@ -124,8 +119,7 @@ switch ($_REQUEST['action']) {
 				<td width="113"><span class="h5">Protector</span></td>
 				<td width="113"><span class="h5">Vampire</span></td>
 				<td width="113"><span class="h5">Warrior</span></td>
-				<td width="135"><span class="h5"><a href="https://fwcalc.com/ascension/lycan-bloodraider/">Blood Raider</a></span></td>
-				<td width="113"><span class="h5">Tormentor</span></td>
+				<td width="135"><span class="h5"><a href="https://fwcalc.com/ascension/lycan-bloodraider/">Blood Raider</a></span></td> 
 				<td width="113"><span class="h5">Paladins</span></td>
 			</tr>
 		</table>

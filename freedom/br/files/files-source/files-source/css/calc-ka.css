@@ -16,7 +16,7 @@ Calculator Kindred-Assassin (ES)
 
 #panel {
 	background-color: #007F7F;
-	background: url('../../../../../../аwakening/br/files/files-source/files/img/panel-ka.png');
+	background: url('../../files/img/panel-ka.png');
 	background-repeat: no-repeat;
 	height: 114px;
 	width: 953px;
@@ -26,7 +26,7 @@ Calculator Kindred-Assassin (ES)
 }
 
 #calculator {
-	background-image: url('../../../../../../аwakening/br/files/files-source/files/img/masteries-ka.png');
+	background-image: url('../../files/img/masteries-ka.png');
 	background-repeat: no-repeat;
 	width: 953px;
 	height: 850px;
@@ -145,7 +145,7 @@ button:active {
     border: 1px solid #330505;
     border-radius: 6px;
     z-index: 1;
-    background-image: url('../../../../../../аwakening/br/files/files-source/files/img/button-icons-ka.png');
+    background-image: url('../../files/img/button-icons-ka.png');
 	margin-left: 59px;
 }
 

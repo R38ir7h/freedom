@@ -1,7 +1,7 @@
 /**
-  @license html2canvas v0.34 <https://html2canvas.hertzen.com>
+  @license html2canvas v0.34 <http://html2canvas.hertzen.com>
   Copyright (c) 2011 Niklas von Hertzen. All rights reserved.
-  https://www.twitter.com/niklasvh
+  http://www.twitter.com/niklasvh
 
   Released under MIT License
  */

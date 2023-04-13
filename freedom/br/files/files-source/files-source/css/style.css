@@ -145,7 +145,7 @@ h6{font-size:14px;line-height:18px;color:#ffffff;margin-bottom:6px;}
 /* ----------------------------------------------------------------
 Main Background
 -----------------------------------------------------------------*/
-body {background:#101418 url(../img/body-bg.jpg) scroll repeat top left    ;min-width:100%;width:100%;min-height:100%;height:100%;}
+body {background:#101418 url(../img/body-bg.jpg) scroll repeat top left ;min-width:100%;width:100%;min-height:100%;height:100%;}
 
 /* ----------------------------------------------------------------
 Main Header
@@ -277,7 +277,7 @@ background: #1a1f24;
 border:1px solid #1a1f24;
 
 }
-#searchButton {float:left;display:block;border:0;cursor:pointer;text-transform:uppercase;color:transparent;width:18px;height:18px;background:url(../../../../../../%D0%B0wakening/br/files/files-source/files-source/img/searchBu.gif) no-repeat 0 0;margin:5px 0 0 -25px;}
+#searchButton {float:left;display:block;border:0;cursor:pointer;text-transform:uppercase;color:transparent;width:18px;height:18px;background:url(../img/searchBu.gif) no-repeat 0 0;margin:5px 0 0 -25px;}
 
 
 /* ----------------------------------------------------------------

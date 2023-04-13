@@ -831,7 +831,7 @@ var data = [
 			name: "Hollow Point",
 			ranks: 3,
 			desc: "Increases Crit Damage by <span class='tooltip-value'>#%</span>.",
-			rankInfo: [3, 6, 9],
+			rankInfo: [5, 10, 15],
 		},
 		{
 			index: 54,

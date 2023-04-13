@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
-            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://fwcalc.com/</loc>
 </url>
@@ -293,49 +293,49 @@
   <loc>https://fwcalc.com/br/sismico-protetor</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/</loc>
+  <loc>https://fwcalc.com/freedom/</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/dwarf-marksman</loc>
+  <loc>https://fwcalc.com/freedom/dwarf-marksman</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/elf-bard</loc>
+  <loc>https://fwcalc.com/freedom/elf-bard</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/elf-priest</loc>
+  <loc>https://fwcalc.com/freedom/elf-priest</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/elf-warrior</loc>
+  <loc>https://fwcalc.com/freedom/elf-warrior</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/human-assassin</loc>
+  <loc>https://fwcalc.com/freedom/human-assassin</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/human-mage</loc>
+  <loc>https://fwcalc.com/freedom/human-mage</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/human-priest</loc>
+  <loc>https://fwcalc.com/freedom/human-priest</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/human-warrior</loc>
+  <loc>https://fwcalc.com/freedom/human-warrior</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/kindred-assassin</loc>
+  <loc>https://fwcalc.com/freedom/kindred-assassin</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/kindred-mage</loc>
+  <loc>https://fwcalc.com/freedom/kindred-mage</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/kindred-vampire</loc>
+  <loc>https://fwcalc.com/freedom/kindred-vampire</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/lycan-assassin</loc>
+  <loc>https://fwcalc.com/freedom/lycan-assassin</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/lycan-priest</loc>
+  <loc>https://fwcalc.com/freedom/lycan-priest</loc>
 </url>
 <url>
-  <loc>https://fwcalc.com/Awakening/ru/stoneman-protector</loc>
+  <loc>https://fwcalc.com/freedom/stoneman-protector</loc>
 </url>
 <url>
   <loc>https://forum.fw-rebirth.com</loc>
