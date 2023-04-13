@@ -1,0 +1,31 @@
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	var imgs1 = new Array("/game/nords-en-1_mini.jpg","/game/smite-en-1_mini.jpg","/game/smite-en-2_mini.jpg","/game/smite-en-3_mini.jpg","/game/smite-en-4_mini.jpg","/game/smite-en-5_mini.jpg","/game/smite-en-6_mini.jpg","/game/warframe-en-1_mini.jpg","/game/warframe-en-2_mini.jpg","/game/warframe-en-3_mini.jpg","/game/stormfall-en-1_mini.jpg","/game/stormfall-en-2_mini.jpg","/game/stormfall-en-3_mini.jpg","/game/stormfall-en-4_mini.jpg","/game/stormfall-en-5_mini.jpg","/game/stormfall-en-6_mini.jpg","/game/stormfall-en-7_mini.jpg","/game/stormfall-en-8_mini.jpg","/game/stormfall-en-9_mini.jpg","/game/stormfall-en-10_mini.jpg","/game/stormfall-en-11_mini.jpg","/game/stormfall-en-12_mini.jpg","/game/stormfall-en-13_mini.jpg");
+	var lnks1 = new Array("/r.php?r=nords-en","/r.php?r=smite-en","/r.php?r=smite-en","/r.php?r=smite-en","/r.php?r=smite-en","/r.php?r=smite-en","/r.php?r=smite-en","/r.php?r=warframe-en","/r.php?r=warframe-en","/r.php?r=warframe-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en","/r.php?r=stormfall-en");
+	var alt1 = new Array("Nords: Heroes of the North","SMITE","SMITE","SMITE","SMITE","SMITE","SMITE","WarFrame","WarFrame","WarFrame","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall","StormFall");
+	var currentAd1 = 0;
+	var imgCt1 = 23;
+	function cycle1() {
+	  if (currentAd1 == imgCt1) {
+		currentAd1 = 0;
+	  }
+	var banner1 = document.getElementById('love');
+	var link1 = document.getElementById('u');
+	  banner1.src=imgs1[currentAd1]
+	  banner1.alt=alt1[currentAd1]
+	  document.getElementById('u').href=lnks1[currentAd1]
+	  currentAd1++;
+	}
+	  window.setInterval("cycle1()",10000);
+	</script>
+
+			<script type="text/javascript">
+					jQuery(document).ready(function(){
+						if (jQuery('.myTestAd').height() == 0) {
+						   document.write('<a href=""/r.php?r=nords-en"" id="u" target="_top"><img src="/game/nords-en-1_mini.jpg" id="love" border="0" width="730" height="92"></a>');
+						}
+					});
+			</script>
+			<div class="myTestAd">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="YYYID" data-ad-slot="XXXID"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+			</div>
